@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+    table,th,td
+        {
+            border-collapse: collapse; 
+          border:1px solid black;
+        }
+    </style>
+
+    
+    
+       
+        
+<body style="background-color:powderblue;">
+    <header>
+        <h1>Application Form</h1>
+    </header>
+    <hr>
+    
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="name">
+        <br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="name">
+        <br>
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label>
+        <br><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br><br>
+        <label for="phno">Phone no:</label>
+        <input type="tel" id="phno"><br><br>
+        <label for="birthday">Date of Birth:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor"><br><br>
+        <p>Languages known:</p>
+        <label for="Telugu">Telugu</label>
+        <input type="checkbox" id="telugu" name="lan">
+        <br><br>
+        <label for="English">English</label>
+        <input type="checkbox" id="English" name="lan">
+        <br><br>
+        <label for="Hindi">Hindi</label>
+        <input type="checkbox" id="Hindi" name="lan">
+        <br><br>
+        <label for="myfile">Resume:</label>
+        <input type="file" id="myfile" name="myfile">
+        <p>Address:</p>
+        <textarea cols="50" rows="5"></textarea>
+    </form> 
+    <p>Family Details:</p>
+    <table >
+        <tr>
+            <th colspan="2">name</th>
+            <th>relation</th>
+            <th>phoneno</th>
+        </tr>
+        <tr>
+            <td><input type="text" ></td>
+            <td><input type="text"></td>
+            <td><input type="text" placeholder="father"></td>
+            <td><input type="text"></td>
+            
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            
+        </tr>
+        <tr>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            <td><input type="text"></td>
+            
+        </tr>
+    </table> 
+    <br>
+    <input type="submit">
+    <input type="reset">
+    
+</body>
+</html>
